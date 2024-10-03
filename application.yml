@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mysql://localhost:3306/gradProject?serverTimezone=UTC
+    username: root
+    password: 12341234
+
+token:
+  # expiration_time: 86400000
+  expiration_time: 30000
+  secret: kyle
+
+gateway:
+  ip: 172.18.0.5
