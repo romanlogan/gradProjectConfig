@@ -2,7 +2,7 @@
 spring:
   datasource:
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    url: jdbc:log4jdbc:mysql://localhost:3306/gradProject?serverTimezone=UTC
+    url: jdbc:log4jdbc:mysql://mysqldb:3306/gradProject?serverTimezone=UTC
     username: root
     password: 12341234
 
