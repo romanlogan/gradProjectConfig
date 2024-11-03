@@ -8,8 +8,6 @@ spring:
 
 token:
   # expiration_time: 86400000
-  expiration_time: 30000
+  expiration_time: 100000
   secret: kyle
 
-gateway:
-  ip: 172.18.0.5
