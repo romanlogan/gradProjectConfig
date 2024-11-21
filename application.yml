@@ -7,7 +7,6 @@ spring:
     password: 12341234
 
 token:
-  # expiration_time: 86400000
-  expiration_time: 100000
+  expiration_time: 86400000
   secret: kyle
 
